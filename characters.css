@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #F2F2F2;
+}
+
+.header {
+    background-color:#F2F2F2;
+}
+
+.image-content {
+    background-color:#F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.image-totoro {
+    width: 10%;
+}
+
+.theme-ghibli {
+    font-size: 60px;
+    font-family: 'Open Sans', 'icones', sans-serif; 
+    color: #283D59;
+}
+
+ul {
+    display: flex;
+    padding-top: 1%;
+    padding-left: 1.5%;
+}
+
+li {
+    display: inline;
+    font-size:larger;
+    font-family: 'Open Sans', 'icones', sans-serif;   
+    margin: 0 50px 0 0;
+    color: #283D59;
+}
+
+li a {
+    color: #283D59;
+    font-weight: bold;
+    transition: 1s all;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* 
+li a:hover {    
+    transform: scale(1.2);
+} */
+
+.main-content {
+    background-color: #F2F2F2;
+    padding: 2rem;     
+}
+
+.filters-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    background: #5176A6; 
+    padding: 00.5rem;       
+}
+
+.select {
+    height: 2rem;
+    width: 12rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 2);   
+    font-family: 'Open Sans', 'icones', sans-serif;    
+    padding: 0.3rem;
+    margin: 5px;    
+    position: relative;
+    display: inline-block;
+}
+
+.btn-clean {
+    font-family: 'Open Sans', 'icones', sans-serif;
+    width: 12rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background: #ced4da;
+    border-radius: 17px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 1);
+    box-sizing: border-box; 
+    padding: 0.3rem;
+    margin: 5px;    
+    position: relative;
+    display: inline-block;
+}
+
+.btn-clean:hover {   
+    background: linear-gradient(to right top, #F2F2F2,#20324B);
+}
+
+.card-character {
+    width:20rem;
+    border-radius:3%;
+    width: 235px;
+    height: 350px;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.7);    
+}
+
+.name-character {
+    font-family: 'Open Sans', 'icones', sans-serif;
+    color: #0D0D0D;
+    font-size: 1.5rem;
+    width: 250px;
+    height: 60px;
+    padding: 17px;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center; 
+    box-sizing: border-box; 
+    object-fit: cover;
+}
+
+.character-details {
+    font-family: 'Open Sans', 'icones', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3vh 3vw ;   
+    flex-direction: column; 
+    display: flex;    
+}
+
+.result-percent {
+    font-family: 'Open Sans', 'icones', sans-serif;
+    color:#0D0D0D;
+    font-size: 3vh;
+    padding-top: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+.character-amount-container {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.character-amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;  
+    align-self: center; 
+} 
+
+.footer {
+    font-family: 'Open Sans', 'icones', sans-serif;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#0D0D0D;
+    text-align: center;
+    position: relative;
+    bottom: 2vh;
+    font-size: 17px; 
+    padding: 30px;
+}
+
+.linkedin {
+    text-decoration: none;
+    color: #0D0D0D;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 740px){
+    body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width: 560px){
+    body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    body {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+} 
+}

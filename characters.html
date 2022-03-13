@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Studio Ghibli</title>
+  <link rel="stylesheet" href="characters.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navigation">
+      <ul>
+        <li><a class="navigation-link" href="index.html">FILMES</a></li>
+        <li><a class="navigation-link" href="characters.html">PERSONAGENS</a></li>
+        <li><a class="navigation-link" href="about.html">SOBRE</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="image-content">
+    <img class="image-totoro" src="img/totoro.png" alt="Imagem do personagem de Totoro">
+    <h1 class="theme-ghibli">Ghibli Explorer</h1>
+  </section>
+
+  <section class="filters-container">
+    <select class="select" id="sort-az">
+      <option selected disabled value="">Ordem Alfabética</option>
+      <option value="A-Z">A-Z</option>
+      <option value="Z-A">Z-A</option>
+    </select>
+
+    <select class="select " id="select-specie">
+      <option selected disabled value="">Espécie</option>
+      <option value="Human">Human</option>
+      <option value="Fish/Human">Fish/Human</option>
+      <option value="Raccoon Dog">Raccoon Dog</option>
+      <option value="Borrower">Borrower</option>
+      <option value="Cat">Cat</option>
+      <option value="Totoro">Totoro</option>
+      <option value="Witch">Witch</option>
+    </select>
+
+    <select class="select" id="select-gender">
+      <option selected disabled value="">Gênero</option>
+      <option value="Female">Female</option>
+      <option value="Male">Male</option>
+      <option value="NA">NA</option>
+    </select>
+
+    <button type="reset" id="btn-clean" class="btn-clean">Limpar Filtragem</button>
+
+  </section>
+
+  <main class="main-content" id="main-content">
+    <div class="result-percent" id="result-percent"></div>
+    <div class="container-cards" id="container-cards"></div>
+  </main>
+
+  <footer class="footer">
+    <p>Desenvolvido por <a target="_blank" class="linkedin" href="https://www.linkedin.com/in/elizenai/"> Elizenai Silva
+      </a> e <a target="_blank" class="linkedin" href="https://www.linkedin.com/in/lromao/"> Lidianne Romão </a> para
+      Laboratória 007 - 2022.</p>
+  </footer>
+
+  <script src="characters.js" type="module"></script>
+</body>
+
+</html>
