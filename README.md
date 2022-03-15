@@ -18,7 +18,7 @@
 
 ## 1. Status do projeto
 
-- ![Bagde em desenvolvimento](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-green) 
+- ![Bagde concluído](https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-green) 
 
 ## 2. Acesso
 
