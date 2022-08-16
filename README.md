@@ -22,7 +22,7 @@
 
 ## 2. Acesso
 
-O deploy do projeto foi realizado pelo Git Pages. [Clique aqui](https://elizenai.github.io/SAP007-data-lovers/index.html) para acessá-lo.
+O deploy do projeto foi realizado pelo Git Pages. [Clique aqui](https://lidiannerb.github.io/SAP007-data-lovers/) para acessá-lo.
 
 ### Como usar
 Você precisará:
