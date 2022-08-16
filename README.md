@@ -28,11 +28,8 @@ O deploy do projeto foi realizado pelo Git Pages. [Clique aqui](https://elizenai
 Você precisará:
 
 - Instalar o Node.js e clonar o projeto.
-
 - Instalar as dependências:  npm install
-
 - Iniciar a aplicação:  npm start
-
 - Realizar os testes unitários: npm test 
 
 ## 3. Descrição
